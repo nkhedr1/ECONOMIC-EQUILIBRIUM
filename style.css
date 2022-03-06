@@ -1,0 +1,63 @@
+body {
+ background-image: url('img/finance.jpg');
+ background-size: cover;
+}
+.container {
+ margin: 20px;
+ padding: 20px;
+}
+
+@media screen and (max-width: 700px) {
+ input {
+  display: block;
+ }
+}
+
+#cf {
+ position: relative;
+ height: 200px;
+ width: 200px;
+ margin: 0 auto;
+}
+
+#cf img {
+ position: absolute;
+ left: -253px;
+ -webkit-transition: opacity 1s ease-in-out;
+ -moz-transition: opacity 1s ease-in-out;
+ -o-transition: opacity 1s ease-in-out;
+ transition: opacity 1s ease-in-out;
+}
+
+img {
+ height: 400px;
+ width: 600px;
+}
+
+#cf img.top:hover {
+ opacity: 0;
+}
+
+h1 {
+ margin: auto;
+ margin-top: 50px;
+ width: 50%;
+ text-transform: uppercase;
+}
+
+#calculate {
+ margin-top: 20px;
+}
+
+#videos {
+ display: flex;
+ justify-content: space-around;
+}
+
+#img-container {
+ margin-top: 40px;
+}
+
+#intro {
+ margin-left: 23px;
+}
