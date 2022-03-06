@@ -96,5 +96,3 @@ function calculateOutput() {
     </tr>`,
  );
 }
-
-console.log(inputArr);
